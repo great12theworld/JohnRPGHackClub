@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://dhg3jr7bq1iwy"]
 
+[ext_resource type="Texture2D" uid="uid://gbgausfcgteo" path="res://icon.svg" id="1_rupst"]
+
 [sub_resource type="CircleShape2D" id="CircleShape2D_g4v7s"]
 
 [node name="Playground" type="Node2D" unique_id=1359663132]
@@ -8,3 +10,7 @@
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=65803161]
 shape = SubResource("CircleShape2D_g4v7s")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=1841630496]
+scale = Vector2(0.07421875, 0.07421875)
+texture = ExtResource("1_rupst")
